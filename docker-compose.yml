@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  #new service (sample-api)
+  java_app:
+    container_name: sample-api
+    image: sample-api:1.0.0
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - /c/samplevolume:/test
+
+#docker compose up -d
+

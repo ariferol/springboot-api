@@ -1,0 +1,31 @@
+server:
+  port: 90
+
+spring:
+  profiles:
+    active: dev
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+        trace: false
+  datasource:
+    username: sa
+    password: sa
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+# INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+
+app:
+  jwtCookieName: sampleapi
+  jwtExpirationMilisecond: 300000
+  jwtKey: 35ACD96BFB1321D98D08E43D07D77395641F72C8E30E817B039390FFA36BF553
+  description: Sample REST API Boilerplate
+  version: 1.0.0
+
+api:
+  base-path: /sample-api
