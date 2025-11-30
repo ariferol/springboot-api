@@ -26,10 +26,7 @@ Bu repository sadece bir konsept göstergesi değil; aynı zamanda üretime uygu
 ## Kurulum ve Çalıştırma
 1. **Projeyi klonlayın:**
    ```sh
-   git clone [<repo-url>](https://github.com/ariferol/springboot-api.git)
-   cd springboot-api
-   ```
-2. **Maven ile derleyin:**
+   git clone https://github.com/ariferol/springboot-api.git
    ```sh
    mvn clean install
    ```
