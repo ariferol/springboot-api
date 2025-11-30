@@ -27,7 +27,7 @@ Bu repository sadece bir konsept göstergesi değil; aynı zamanda üretime uygu
 1. **Projeyi klonlayın:**
    ```sh
    git clone https://github.com/ariferol/springboot-api.git
-   ```sh
+   
    mvn clean install
    ```
 3. **Uygulamayı başlatın:**
